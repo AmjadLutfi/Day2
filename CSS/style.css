@@ -1,0 +1,28 @@
+body{
+    height: 1080px;
+}
+
+#absolute{
+    color: red;
+    background-color: aquamarine;
+    position:relative;
+}
+
+#fix{
+    color: blue;
+    position: fixed;
+    background-color: beige;
+}
+
+#reguler{
+    color: black;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-top: 50px;
+}
+
+@media screen and  (max-width: 600px){
+    body{
+        background-color: red;
+    }
+}
